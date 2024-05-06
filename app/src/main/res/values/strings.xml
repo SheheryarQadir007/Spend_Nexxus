@@ -1,0 +1,24 @@
+<resources>
+    <!-- Add categories and currencies -->
+    <string-array name="categories">
+        <item>Food</item>
+        <item>Transportation</item>
+        <item>Housing</item>
+        <item>Entertainment</item>
+        <!-- Add more categories as needed -->
+    </string-array>
+
+    <string-array name="currencies">
+        <item>PKR</item>
+        <item>INR</item>
+        <item>USD</item>
+        <item>Euro</item>
+        <item>Pounds</item>
+        <!-- Add more currencies -->
+    </string-array>
+
+    <string name="app_name">Expense Tracker</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_source">Enter source</string>
+    <string name="add_income">Add Income</string>
+</resources>

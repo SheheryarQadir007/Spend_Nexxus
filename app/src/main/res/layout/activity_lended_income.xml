@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/borrowerIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amountEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Borrower ID"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/dueDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/borrowerIdEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Due Date (optional)"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <Button
+        android:id="@+id/recordIncomeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dueDateEditText"
+        android:layout_marginTop="16dp"
+        android:text="Record Lent Income"
+        tools:ignore="HardcodedText" />
+    <ListView
+        android:id="@+id/lentIncomeListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/dueDateEditText"
+        android:layout_marginTop="16dp"
+        tools:listitem="@layout/lent_income_item_layout"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

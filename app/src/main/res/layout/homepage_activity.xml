@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="16dp">
+
+    <!-- Add Expense Button -->
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add or View Expense"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- View Expense Button -->
+  <!--  <Button
+        android:id="@+id/btnViewExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Expense"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"/>-->
+
+    <!-- Set Budget Button -->
+    <Button
+        android:id="@+id/btnSetBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Budget"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Add Income Button -->
+    <Button
+        android:id="@+id/btnAddIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Income"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Lended Income Button -->
+    <Button
+        android:id="@+id/btnLendedIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lended Income"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Borrowed Money Button -->
+    <Button
+        android:id="@+id/btnBorrowedMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrowed Money"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

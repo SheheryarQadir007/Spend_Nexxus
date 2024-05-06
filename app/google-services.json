@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1029629949849",
+    "firebase_url": "https://spend-nexxus-13c9a-default-rtdb.firebaseio.com",
+    "project_id": "spend-nexxus-13c9a",
+    "storage_bucket": "spend-nexxus-13c9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029629949849:android:5cfb9bbd3a66d5b0080508",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbcjaOl1N31gjKUX1JcoJTqiGqZmhnUX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount Borrowed"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/lenderIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amountEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Lender ID"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:id="@+id/dueDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lenderIdEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Due Date"
+        android:inputType="date"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <Button
+        android:id="@+id/recordBorrowedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dueDateEditText"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Record Borrowed Amount"
+        tools:ignore="HardcodedText" />
+
+    <ListView
+        android:id="@+id/borrowedList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recordBorrowedButton"
+        android:layout_marginTop="16dp"
+        tools:listitem="@layout/borrowed_item_layout"
+        tools:ignore="MissingConstraints" />
+    <ListView
+        android:id="@+id/borrowedAmountsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/recordBorrowedButton"
+        android:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>
